@@ -1,0 +1,257 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*::-webkit-scrollbar { width: 0 !important }
+
+body {
+	background: url(Home.jpg) no-repeat;
+	background-position: right center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+select{
+	width: 40%;
+	font-size: 72px;
+	height: 30%;
+	line-height: 30%;
+}
+
+#match {
+	position: absolute;
+	top: 32px;
+	right: 200px;
+  	width: 233px;
+  	height: 233px;
+
+}
+
+
+
+div.button {
+	position: absolute;
+	left: 50%;
+	background-color: rgba(0,0,0,0.29);
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
+	width: 120px;
+	height: 86px;
+	line-height: 86px;
+	text-align: center;
+	
+}
+
+div.button > h1 {
+	margin: 0;
+}
+
+div#Back {
+	position: fixed;
+	top: 24px;
+	left: 24px;
+	float:left;
+	clear: both;
+	color: rgba(255,255,255,1.00);
+}
+
+div#contact {
+	color: rgba(0,0,0,1.00);
+	top: 680px;
+}
+
+
+#food {
+	margin-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	display: none;
+	text-align: center;
+	width: 500px;
+	height: 120px;
+	border-top: solid 40px rgba(174,111,221,1.00);
+	border-radius: 14px;
+	background: rgba(255,255,255,1.00);
+}
+
+
+#budget {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	display: none;
+	text-align: center;
+	width: 500px;
+	height: 120px;
+	border-top: solid 40px rgba(97,115,220,1.00);
+	border-radius: 14px;
+	background: rgba(255,255,255,1.00);
+}
+
+div#submit {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	top: 680px;
+	background-color: rgba(84,146,254,1.00);
+	color: rgba(255,255,255,1.00);
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
+	width: 220px;
+	height: 86px;
+	line-height: 86px;
+	text-align: center;
+	display: none;
+}
+
+div#submit > h1 {
+	margin-top: 0;
+}
+
+div#form{
+	font-family: "Lato", sans-serif;
+	text-align: center;
+	width: 40%;
+	height: 360px;
+	border-top: solid 40px rgba(241,134,78,1.00);
+	border-radius: 14px;
+	background: rgba(255,255,255,1.00);
+	margin-left: auto;
+	margin-right: auto;
+	display: none;
+}
+
+div#form > form{
+	margin-top: 20px;
+}
+
+textarea {
+	margin-top: 20px;
+	width: 80%;
+	height: 160px;
+}
+
+div#wineResult {
+
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	border-top: solid 40px rgba(176,201,62,1.00);
+	border-radius: 14px;
+	text-align: center;
+	width: 45%;
+	height: auto;
+	background:rgba(255,255,255,1.00);
+	margin-left: auto;
+	margin-right: auto;
+	display: none;
+	
+	
+}
+
+div#wineResult > p > img {
+	margin-top: 15%;
+}
+
+div#feedback {
+
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	border-top: solid 40px rgba(202,129,225,1.00);
+	border-radius: 14px;
+	text-align: center;
+	width: 45%;
+	height: auto;
+	background:rgba(255,255,255,1.00);
+	margin-left: auto;
+	margin-right: auto;
+	display: none;
+	
+	
+}
+
+div#wineResult > p, div#feedback > p {
+	margin-left: 15%;
+	margin-top: 24px;
+	width: 70%;
+	padding-bot: 24px;
+	
+}
+
+
+@media (max-width: 1024px) {
+	#food{
+		width: 400px;
+	}
+	#budget{
+		width: 400px;
+	}
+	
+	div#form{
+		width: 400px;
+	}
+	
+	div#submit{
+		width: 120px;
+	}
+	
+	div#feedback{
+		width:400px;
+	}
+	
+	div#wineResult{
+		width: 400px;
+		overflow: auto;
+	}
+}
+
+@media (max-width: 600px) {
+	body{
+	height: 100%;
+	width: 100%;
+	margin: 0 0 0 0;
+	overflow: scroll;
+	}
+	#food{
+		font-size: 20px;
+		width: 100%;
+		height: 250px;;
+		margin: 0 0 0 0;
+	}
+	#budget{
+		font-size: 20px;
+		width: 100%;
+		height: 250px;
+		margin: 0 0 0 0;
+	}
+	
+	div#submit{
+		bottom: 0%;
+		width: 100%;
+		height: 150px;
+		margin: 0 0 100 0;
+		font-size: 40px;
+		line-height: 140px;
+	}
+	
+	div#wineResult{
+		width: 100%;
+		height: auto;
+		overflow: auto;
+	}
+	div#form{
+		width: 100%;
+		height: auto;
+		overflow: auto;
+	}
+	
+	div#feedback{
+		width: 100%;
+		height: auto;
+		overflow: auto;
+	}
+}
