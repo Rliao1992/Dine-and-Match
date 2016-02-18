@@ -6,4 +6,4 @@
 I created a PHP file that contains arrays representing all the possible results that will respond to all the combo requests that are sent from the client side with jQuery AJAX technolgy. 
 
 ### Link:
-[Click Here](https://www.liaoroger.com/WineNot) to visit the site.
+[Click Here](http://www.liaoroger.com/WineNot) to visit the site.
